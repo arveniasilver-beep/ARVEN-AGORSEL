@@ -1,0 +1,8 @@
+# Bu depoda Git LFS kullanilmaz.
+# LFS ile takip edilen dosyalar GitHub Pages uzerinden pointer metni olarak
+# servis edilir ve gorsel acilmaz. Asagidaki satirlar global LFS filtresini
+# bu depodaki gorseller icin devre disi birakir.
+*.jpg -filter -diff -merge
+*.jpeg -filter -diff -merge
+*.png -filter -diff -merge
+*.webp -filter -diff -merge
